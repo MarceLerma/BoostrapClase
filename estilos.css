@@ -36,106 +36,75 @@ a:hover{
     display: flex;
     flex-wrap: nowrap;
 }
+/* Inicio Responsive Design */
+
 .container-subsection{
     width: 60%;
     height: 400px;
     color: black;
     margin-top: 5px;
     margin-right: 20px;
-    border: 1px solid plum;
-    background-image: url("./Recursos/imagen1.PNG");
-    background-size: 300px 300px;
-    background-repeat: no-repeat;
-    background-position: center;
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: nowrap;  
 }
-/*Small devices - portrait tables and large phones)*/
+.container-imagen1{
+    background-image: url(./Recursos/paisaje1.jpg);
+}
+.container-imagen2{
+    background-image: url(./Recursos/paisaje2.jpg);
+}
+.container-imagen3{
+    background-image: url(./Recursos/paisaje3.jpg);
+}
+.container-imagen4{
+    background-image: url(./Recursos/paisaje4.jpg);
+}
+/* Small devices - portrait tables and large phones)
 @media only screen and (max-width:600px){
-    .container-subsection{
-        background-image: url("./Recursos/imagen4.PNG");
-        background-size: 300px 200px;
-        background-repeat: no-repeat;
-        background-position: bottom;
+    .container-imagen1 {
+        background-image: url("./Recursos/paisaje1.jpg");
     }
-} 
-/*Small devices - portrait tables and large phones)*/
+    .container-imagen2 {
+        background-image: url("./Recursos/paisaje2.jpg");
+    }
+    .container-imagen3 {
+        background-image: url("./Recursos/paisaje3.jpg");
+    }
+    .container-imagen4 {
+        background-image: url("./Recursos/paisaje4.jpg");
+    }
+    }
+Small devices - portrait tables and large phones)
 @media only screen and (min-width:600px){
     .container-subsection{
-        background-image: url("./Recursos/imagen3b.PNG");
-        background-size: 360px 200px;
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-} 
-/*Medium devices - landscape tablets*/
-@media only screen and (min-width:768px){
-    .container-subsection{
-        background-image: url("./Recursos/imagen2.PNG");
-        background-size: 600px 400px;
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-} 
-/*Large devices - laptops and descktops*/
-@media only screen and (min-width:922px){
-    .container-subsection{
-        background-image: url("./Recursos/imagen1.PNG");
-        background-size: 300px 300px;
-        background-repeat: no-repeat;
-        background-position: center;
+        
     }
 }
+Medium devices - landscape tablets
+@media only screen and (min-width:768px){
+    .container-subsection{
+        
+    }
+}
+/*Large devices - laptops and descktops*/
+/* @media only screen and (min-width:922px){
+    .container-subsection{
+        
+    }
+} */
+   
+
+/* Fin Responsive Design */
 .container-aside{
-    width: 39%;
-    height: 390px;
+    width: 30%;
+    height: 400px;
     color: black;
     margin-top: 5px;
     margin-right: 20px;
-    padding: 5px;
-    border: 1px solid plum;
+    border: 1px solid grey;
     display: flex;
-    align-items: center;
-    }
-    /*Extra small devices - phones)*/
-@media only screen and (max-width:600px){
-    p::first-letter{
-        color: purple;
-        font-size: x-large;
-    }
-    p::first-line{
-        color: grey;
-        font-variant: small-caps;
-    }
-    .container-aside > p:first-child{
-        text-shadow: 1px 1px 4px rgba(0,0,0.45);
-    }
-}
-/*Small devices - portrait tables and large phones)*/
-@media only screen and (min-width:600px){
-    p::first-letter{
-        color: plum;
-        font-size: x-large;
-    }
-    p::first-line{
-        color: grey;
-        font-variant: small-caps;
-    }
-    .container-aside > p:first-child{
-        text-shadow: 1px 1px 4px rgb(156, 139, 139);
-    }
-}
-/*Medium devices - landscape tablets*/
-@media only screen and (min-width:922px){
-    p::first-letter{
-        color: yellowgreen;
-        font-size: x-large;
-    }
-    p::first-line{
-        color: midnightblue;
-        font-variant: small-caps;
-    }
-    .container-aside > p:first-child{
-        text-shadow: 1px 1px 4px rgb(153, 151, 151);
-    }
+    flex-wrap: nowrap;  
 }
 .container-footer{
     width: 100%;
