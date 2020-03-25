@@ -30,81 +30,79 @@ a:hover{
 } 
 .container-main{
     width: 99%;
-    height: 400px;
+    height: 450px;
     padding: 10px;
     margin: 10px;
     display: flex;
     flex-wrap: nowrap;
 }
-/* Inicio Responsive Design */
-
 .container-subsection{
     width: 60%;
     height: 400px;
-    color: black;
+    background-color: lightgoldenrodyellow;
     margin-top: 5px;
     margin-right: 20px;
+    padding: 15px;
     border: 1px solid grey;
     display: flex;
-    flex-wrap: nowrap;  
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
 }
 .container-imagen1{
-    background-image: url(./Recursos/paisaje1.jpg);
-}
+    width: 50%;
+    height: 200px;
+    background-image: url("./Recursos/paisaje1.jpg");
+    background-repeat: no-repeat;
+    } 
 .container-imagen2{
-    background-image: url(./Recursos/paisaje2.jpg);
+    width: 50%;
+    height: 200px;
+    background-image: url("./Recursos/paisaje2.jpg");
+    background-repeat: no-repeat;
 }
 .container-imagen3{
-    background-image: url(./Recursos/paisaje3.jpg);
+    width: 50%;
+    height: 200px;
+    background-image: url("./Recursos/paisaje3.jpg");
+    background-repeat: no-repeat;
 }
 .container-imagen4{
-    background-image: url(./Recursos/paisaje4.jpg);
+    width: 50%;
+    height: 200px;
+    background-image: url("./Recursos/paisaje4.jpg");
+    background-repeat: no-repeat;
 }
-/* Small devices - portrait tables and large phones)
-@media only screen and (max-width:600px){
-    .container-imagen1 {
-        background-image: url("./Recursos/paisaje1.jpg");
-    }
-    .container-imagen2 {
-        background-image: url("./Recursos/paisaje2.jpg");
-    }
-    .container-imagen3 {
-        background-image: url("./Recursos/paisaje3.jpg");
-    }
-    .container-imagen4 {
-        background-image: url("./Recursos/paisaje4.jpg");
-    }
-    }
-Small devices - portrait tables and large phones)
-@media only screen and (min-width:600px){
-    .container-subsection{
-        
-    }
-}
-Medium devices - landscape tablets
-@media only screen and (min-width:768px){
-    .container-subsection{
-        
-    }
-}
-/*Large devices - laptops and descktops*/
-/* @media only screen and (min-width:922px){
-    .container-subsection{
-        
-    }
-} */
-   
-
-/* Fin Responsive Design */
 .container-aside{
     width: 30%;
-    height: 400px;
+    height: 415px;
     color: black;
     margin-top: 5px;
     margin-right: 20px;
+    padding-top: 15px;
     border: 1px solid grey;
     display: flex;
-    flex-wrap: nowrap;  
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    align-items: center;
+}
+.container-imagen1b{
+    width: 45%;
+    height: 200px;
+    background-image: url("./Recursos/paisaje5.jpg");
+    background-repeat: no-repeat;
+}
+.container-imagen2b{
+    width: 45%;
+    height: 200px;
+    background-image: url("./Recursos/paisaje6.jpg");
+    background-repeat: no-repeat;
+}
+.container-imagen3b{
+    width: 50%;
+    height: 200px;
+    background-image: url("./Recursos/paisaje7.jpg");
+    background-repeat: no-repeat;
 }
 .container-footer{
     width: 100%;
